@@ -1,0 +1,190 @@
+/* Set the background color of the entire page to a shade of orange */
+html, body {
+  background-color: #ffaa00;
+}
+
+/* Style the game container to center its content horizontally and vertically */
+#gameContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Define the styling for the game table */
+.table {
+  display: table;
+  border-collapse: collapse;
+  width: 30%;
+  background: linear-gradient(to bottom, white, rgb(203 225 225));
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: rgb(242, 255, 0);
+  font-family: "Times New Roman";
+  font-size: 16px;
+  margin: 30px;
+}
+
+/* Styling for the table header */
+.header {
+  display: table-header-group;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Styling for table header cells */
+.header-cell {
+  display: table-cell;
+  padding: 7px;
+  text-align: center;
+  width: 20%;
+  border-color: whitesmoke;
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+/* Add rounded corners to the first and last header cells */
+.header-cell:first-child {
+  border-top-left-radius: 10px;
+}
+
+.header-cell:last-child {
+  border-top-right-radius: 10px;
+}
+
+/* Styling for table rows */
+.row {
+  display: table-row;
+}
+
+/* Styling for the last row (total score) */
+.row:last-child {
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid rgb(4, 83, 83);
+}
+
+/* Styling for table cells */
+.cell {
+  display: table-cell;
+  border: 1px solid;
+  padding: 7px;
+  text-align: center;
+  width: 20%;
+  border-color: rgb(30, 108, 10);
+  color: rgb(8, 116, 19);
+  font-size: 12px;
+}
+
+/* Adjust the styling of the first cell in each row */
+.cell:first-child {
+  width: 60%;
+  text-align: left;
+  color: rgb(4, 83, 83);
+  font-weight: bold;
+}
+
+/* Styling for the total score caption */
+#totalCaption {
+  font-size: 18px;
+}
+
+/* Add a border at the bottom of the bonus section */
+#bonusCaption {
+  border-bottom: 2px solid rgb(4, 83, 83);
+}
+
+/* Add a border at the top of the sum section */
+#sumCaption {
+  border-top: 2px solid rgb(4, 83, 83);
+}
+
+/* Make the text in bonus and sum sections bold */
+#bonusCaption > *, #sumCaption > * {
+  font-weight: bold;
+}
+
+/* Styling for the game board background */
+#board {
+  background: url(yatzy_board.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  min-height: 80%;
+  margin: 20px;
+  border: 20px solid #e7e7e7;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+}
+
+/* Styling for the play area within the game board */
+#playArea {
+  min-height: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Styling for dice containers */
+.dice-container {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  background: #076e29;
+  margin-top: auto;
+}
+
+/* Styling for individual dice elements */
+.dice {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+  z-index: 1000;
+}
+
+/* Styling for dice faces */
+.face {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+/* Add a hover effect to dice faces */
+.face:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for end game message */
+#endGameMessage {
+  align-self: center;
+  color: yellow;
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  transform: translateX(5%);
+}
+
+/* Styling for the roll button */
+#roll {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: transparent;
+  align-self: flex-end;
+  color: whitesmoke;
+  font-weight: bold;
+  background-image: url("button.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Add a hover effect to the roll button */
+#roll:hover {
+  transform: scale(1.1);
+}
