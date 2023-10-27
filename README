@@ -1,0 +1,38 @@
+# Yatzy Game Rules
+
+Yatzy is a dice game played with five standard dice. The goal of the game is to achieve the highest score by rolling specific combinations. Here are the primary rules:
+
+1. **Ones, Twos, Threes, Fours, Fives, and Sixes:** Score the total of the corresponding number rolled on the dice.
+2. **Three of a Kind:** Score the sum of all five dice if at least three have the same value.
+3. **Four of a Kind:** Score the sum of all five dice if at least four have the same value.
+4. **Full House:** Score 25 points for a set of three of one number and two of another.
+5. **Small Straight:** Score 30 points for four sequential dice.
+6. **Large Straight:** Score 40 points for five sequential dice.
+7. **Yatzy:** Score 50 points if all dice are the same.
+8. **Chance:** Score the sum of all five dice, no matter what combination.
+
+The game consists of 13 rounds, and players try their best to achieve the highest total score. The player with the highest score after 13 rounds wins.
+
+# Design System Documentation
+
+## Color Scheme
+This will be the following color scheme for the game:
+
+- **Primary Color:** #3498db (RGB: 52, 152, 219)
+- **Secondary Color:** #27ae60 (RGB: 39, 174, 96)
+
+**Rationale**:
+- *Primary Color*: The primary color, #3498db, is a shade of blue that is used for key elements like buttons and headings. This choice is made to create a relaxing and approachable atmosphere for new players, reducing the initial stress associated with learning a new game.
+- *Secondary Color*: The secondary color, #27ae60, is a beautiful green shade. It is used to highlight important elements such as score updates and winning notifications, creating a sense of achievement and positivity during the game (because green is usually associated with success and achievement).
+
+## Fonts
+- **Headings:** Montserrat (sans-serif)
+- **Subheadings:** Roboto (sans-serif)
+- **Body Text:** Lato (sans-serif)
+
+**Rationale**:
+- *Headings (Montserrat)*: Montserrat is a clean and simple sans-serif font that provides a strong and bold appearance for headings. This choice aims to make headings stand out and leave a lasting impression on the players.
+- *Subheadings (Roboto)*: Roboto is a versatile sans-serif font that is easy to read and works well for subheadings. It ensures clarity and consistency in design, making subheadings easy to understand.
+- *Body Text (Lato)*: Lato, another sans-serif font, is chosen for body text to ensure readability. Its simplicity and readability make it suitable for game instructions and descriptions, ensuring that players can easily follow the rules and guidelines.
+
+These design choices aim to create an appealing and user-friendly Yatzy game interface, with a focus on clarity, trustworthiness, and excitement as well as friendliness through color accents. The combination of relaxing blue and success-associated green, along with carefully chosen fonts, will contribute to an engaging and enjoyable gaming experience.
